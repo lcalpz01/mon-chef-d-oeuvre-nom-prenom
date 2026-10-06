@@ -13,18 +13,32 @@
             <a href="/index.html">Accueil</a>
             <a href="details.html">Détails</a>
         </nav>
-        <form>
-	<label for="prenom">Prenom</label>
-	<input type="text" id="prenom" name="prenom" placeholder="Ton prenom" required>
+        <main>
+            <form>
+                <ul>
+                    <li><label for="prenom">Prenom</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ton prenom" required>
+                    </li>
 
-	<label for="email">E-mail</label>
-	<input type="email" id="email" name="email" required>
+                    <li><label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Ex:olisky@gmail.com" required>
+                    </li>
 
-	<label for="message">Message</label>
-	<textarea id="message" name="message"></textarea>
+                    <li><label for="ville et code postale">Ville et code postale</label>
+                        <input type="text" name="ville et code postale" id="Ville et code postale"
+                            placeholder="Ex:123 Rue du bois 69140">
+                    </li>
 
-	<button type="submit">Envoyer</button>
-</form>
+                    <li><label for="message">Message</label>
+                        <textarea name="Message" id="Message"></textarea>
+                    </li>
+
+                </ul>
+                <li><button type="submit">Envoyer</button></li>
+
+            </form>
+        </main>
+
     </header>
 </body>
 
